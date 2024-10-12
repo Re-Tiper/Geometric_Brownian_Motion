@@ -146,9 +146,10 @@ def GeomBrownianMotionSim(mu, M, T, n, S0, sigma):
         "Simulated GBM\n $dS_t = \mu S_t dt + \sigma S_t dW_t$\n $S_0 = {0}, \mu = {1}, \sigma = {2}$".format(S0, mu, sigma))
     plt.show()
 
-
+########################################################################################
 # Example usage
-BrownianMotionSimWithReflection(t=1, n=250, reflection_time=0.3)
+########################################################################################
+#BrownianMotionSimWithReflection(t=1, n=250, reflection_time=0.3)
 #RandomWalkSim(1, 10)
 #SccaledRandomWalkSim(3, 5, 100)
 #BrownianMotionSim(1000,1,1000)
