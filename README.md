@@ -48,7 +48,7 @@ The parameters $M$ and $\Sigma$ can either be calculated using the full dataset 
 
 ## Weekly Parameter Estimation
 
-To achieve more reliable results, we divide the period from April 10, 2023, to April 10, 2024, into 14 equally sized intervals and calculate the parameters $M$ and $\Sigma$ for each interval. Finally, using the Euler discretization, we arrive at the following two plots. The first plot shows the NVDA stock price alongside 10 different model simulations, while the second plot outlines the range between the maximum and minimum simulated values.
+To achieve more reliable results, we divide the period from April 10, 2023, to April 10, 2024, into 14 equally sized intervals and calculate the parameters $M$ and $\Sigma$ for each interval. Finally, using the Euler discretization, we arrive at two plots. The first plot shows the NVDA stock price alongside 10 different model simulations, while the second plot outlines the range between the maximum and minimum simulated values.
 
 To confirm what we observed intuitively, we will compute the average correlation between all the simulations and the actual data within the study period. Specifically:
 
